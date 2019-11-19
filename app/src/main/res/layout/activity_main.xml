@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    >
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="0"
+       android:textSize="80dp"
+       android:textAlignment="center"
+       android:id="@+id/textview1"
+       android:layout_margin="50dp"
+       />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF5900"
+        android:text="Sumar"
+        android:onClick="onClick"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textview1"
+        android:layout_margin="10dp"
+       />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Enviar Numero"
+        android:onClick="onClick"
+        android:layout_below="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Mostrar Datos"
+        android:onClick="onClick"
+        android:layout_below="@id/btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Eliminar Datos"
+        android:onClick="onClick"
+        android:layout_below="@id/btn3"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>
